@@ -7,8 +7,9 @@ The example uses MySQL but it can be customized with any other DB.
 
 ##### Requirements:
 ```sh
-pip3 install cosmpy
+pip install -r requirements.txt
 ```
+
 ##### Official cosmpy repository:
 ```sh
 https://github.com/fetchai/cosmpy
