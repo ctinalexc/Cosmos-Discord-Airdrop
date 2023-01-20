@@ -35,3 +35,4 @@ The GET request for treasury wallet balance might need some changes depending on
 * *Encrypt/Decrypt public keys when interacting with the wallet addresses*
 * *Multiple tokens in command that select different network configurations*
 * *Airdrop NFTs*
+* *Request deletion of wallet address by users*
