@@ -23,7 +23,7 @@ async def wallet_reg(user_id,add_sent:str):
       resolution = "404"
       return resolution
       
-    if add_sent[0:4] !="juno":
+    if add_sent[0:4] != network_prefix:
       resolution = "404"
       return resolution
 
@@ -106,7 +106,7 @@ async def reward_sent_clear(member_to_reward,airdrop_amount:int,txcomplete:str):
         mydb.commit()
         
         resolution = "400"
-        return resolution,juno_balance
+        return resolution,treasury_balance
     else:
       resolution = "405" #not enough rubies
-      return resolution, juno_balance
+      return resolution, treasury_balance
