@@ -1,0 +1,6 @@
+discord.py
+mysql-connector-python
+json
+requests
+bip_utils
+cosmpy
